@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+</head>
+<body>
+    <div class="Contenedor">
+        <h1 class="titulo">Formulario de practica</h1>
+        <form action=""  id="Formulario">
+            <div class="container">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="Nombre">
+            </div>
+            <div class="container">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <div class="container">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password">
+            </div>
+            <div class="container">
+                <label for="PasswordR">Repetir Password</label>
+                <input type="password" name="Repetir Password" id="PasswordR">
+            </div>
+            <div class="container">
+                <label for="Telefono">Telefono</label>
+                <input type="tel" name="Telefono" id="Telefono">
+            </div>
+            <div class="container" id="CheckBox">
+                <div class="checkbox">
+                    <input type="checkbox" name="Masculino" id="Masculino">
+                    <label for="Masculino">Masculino</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="Femenino" id="Femenino">
+                    <label for="Femenino">Femenino</label>
+                </div>
+            </div>
+            <input class="submit" type="button" value="SUBMIT">
+        </form>
+        <div id='msj'>
+
+        </div>
+        <!-- <p class="error">el nombre no puede tener caracteres númericos, ni simbolos</p>
+        <p class="error ">El correo introducido no coincide con ninguno estadndar</p>
+        <p>Rellena todos los campos</p> -->
+    </div>
+    <script src="./App/App.js"></script>
+</body>
+</html>
