@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculadora</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<!-- Aprovechamos y practicamos el modo oscuro en javascript y los switch -->
+
+<body>
+
+    <header class="site-header">
+        <h1 class="titulo">Calculadora con HTML, CSS y JavaScript</h1>
+    </header>
+
+    <div class="contenedor-mayor">
+
+        <div class="pantalla">
+            <div id="resultado" class="digitos">
+                
+            </div>
+        </div>
+
+        <div class="teclado">
+            <button id="btn-7" class="botones">7</button>
+            <!-- <button id="btn-7" class="botones">7</button> -->
+            <button id="btn-8" class="botones">8</button>
+            <button id="btn-9" class="botones">9</button>
+            <button id="btn-DEL" class="botones">DEL</button>
+            <button id="btn-4" class="botones">4</button>
+            <button id="btn-5" class="botones">5</button>
+            <button id="btn-6" class="botones">6</button>
+            <button id="btn-AC" class="botones">AC</button>
+            <button id="btn-1" class="botones">1</button>
+            <button id="btn-2" class="botones">2</button>
+            <button id="btn-3" class="botones">3</button>
+            <button id="btn-mult" class="botones">x</button>
+            <button id="btn-dec" class="botones">0.X</button>
+            <button id="btn-0" class="botones">0</button>
+            <button id="btn-pot" class="botones">**</button>
+            <button id="btn-sum" class="botones">+</button>
+            <button id="btn-div" class="botones">÷</button>
+            <button id="btn-res" class="botones">-</button>
+            <button id="btn-igual" class="botones">=</button>
+        </div>
+        
+    </div>
+
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
